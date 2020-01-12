@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# CentOS Linux release 7.5.1804 (Core) 上使用
 # 本脚本仅用于虚拟机学习docker时使用
 
 # 安装net-tools ntp-date
