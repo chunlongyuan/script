@@ -2,8 +2,9 @@
 
 # 本脚本仅用于虚拟机学习docker时使用
 
-# 安装net-tools
+# 安装net-tools ntp-date
 yum install -y net-tools
+yum install -y ntpdate
 
 # 设置时区并且同步时间
 cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
