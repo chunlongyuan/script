@@ -32,6 +32,9 @@ tee /etc/docker/daemon.json <<EOF
 }
 EOF
 
+# 设置docker开机启动
+systemctl enable docker
+
 # 重启docker
 systemctl daemon-reload
 systemctl restart docker
