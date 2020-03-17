@@ -3,6 +3,7 @@
 # CentOS Linux release 7.5.1804 (Core) 上使用
 # 本脚本仅用于虚拟机学习kubenetes时使用
 # 新装的虚拟机执行该脚本进行docker和kubernetes安装
+# 除了安装脚本还需要关闭swap分区
 
 bash <(curl -s -L https://raw.githubusercontent.com/everest-8844/script/master/docker/install-docker.sh)
 
